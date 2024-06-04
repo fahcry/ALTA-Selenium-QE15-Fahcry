@@ -20,9 +20,11 @@ public class LoginPage extends BasePage {
 
 
     public void inputFieldUserName(String userName){
+
         sendKeys(fieldUserName, userName);
     }
     public void inputFieldPassword(String password){
+
         sendKeys(fieldPassword, password);
     }
     public void clickButtonLogin(){

@@ -13,6 +13,7 @@ public class LoginSteps {
     LoginPage loginPage = new LoginPage(driver);
     @Given("User open the web sauce demo")
     public void userOpenTheWebSauceDemo() {
+
         Assert.assertTrue(loginPage.verifyLoginPage());
     }
 
