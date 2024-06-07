@@ -1,4 +1,5 @@
 Feature: Continue Test
+  @Tugas
   Scenario: Search products that have been added to the cart then delete 1 product in the cart and continue shopping
     Given User login with valid username "standard_user" and password "secret_sauce"
     And Add to cart button saucelabs backpack is displayed
