@@ -27,6 +27,7 @@ public class ContinueSteps {
     @And("Click add to cart Tshirt Red")
     public void clickAddToCartTshirtRed() {
         continueSteps.clickAddToCartTshirtRed();
+
     }
 
     @And("Click add to cart Tshirt Onesie")
