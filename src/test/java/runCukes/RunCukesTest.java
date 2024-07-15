@@ -10,11 +10,12 @@ import org.junit.runner.RunWith;
                 "hooks",
                 "step_definitions"
         },
-        features = {"classpath:features/Continue.feature"},
+        features = {"classpath:features/"},
         plugin = {"pretty",
                 "html:target/site/cucumber-pretty.html",
                 "json:target/cucumber/cucumber.json"
-        }
+        },
+        tags = "@saucedemo1 or @saucedemo2"
 )
 public class RunCukesTest {
 }

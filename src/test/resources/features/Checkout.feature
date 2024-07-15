@@ -1,4 +1,5 @@
 Feature: Checkout test
+  @saucedemo1
   Scenario: Checkout product saucelabs backpack until complete
     When User login with valid username "standard_user" and password "secret_sauce"
     And Add to cart button saucelabs backpack is displayed
